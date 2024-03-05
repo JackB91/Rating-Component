@@ -16,10 +16,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
+
+
 .rating-card {
-    width: 80vw;
+    max-width: 20rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -29,6 +32,9 @@ body {
     border-radius: 20px;
     padding: 1rem;
 }
+
+
+
 img {
     height: .75rem;
 }
@@ -84,11 +90,13 @@ input[type='radio']:checked +label {
 }
 
 .button-container {
-    width: 80vw;
+    max-width: 20rem;
     display: flex;
     justify-content: center;
     
 }
+
+
 button {
     width: 70vw;
     border: 0;
@@ -97,6 +105,7 @@ button {
     color:hsl(0, 0%, 100%) ;
     background-color:hsl(25, 97%, 53%) ;
     transition: .2s ease;
+    margin: 1rem;
 }
 
 button:hover {
@@ -107,5 +116,17 @@ button:hover {
 }
 
 .card-content {
+    width: 100%;
     display: n;
+}
+
+
+@media screen and (min-width:1440px ) {
+    .rating-card {
+        max-width: 23rem;
+    }
+    .button-container {
+        max-width: 23rem;
+    }
+    
 }
