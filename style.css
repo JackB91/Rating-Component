@@ -1,0 +1,111 @@
+html {
+    font-family: Overpass, sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h2 {
+    color:hsl(0, 0%, 100%) ;
+}
+p {
+    color:hsl(217, 12%, 63%) ;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-card {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 1rem;
+}
+img {
+    height: .75rem;
+}
+.image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   width: 2rem;
+   height: 2rem;
+   background-color:  hsla(216, 12%, 54%,0.15);
+   border-radius: 50px; 
+   
+}
+
+/* input styling */
+input[type='radio'] {
+    display: none;
+}
+
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+       
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    background-color:  hsla(216, 12%, 54%,0.15);
+    border-radius: 50px;
+    margin: .8rem;
+    color: hsl(217, 12%, 63%);
+    padding: 0;
+    line-height: 1;
+}
+
+label:hover {
+    cursor: pointer;
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(25, 97%, 53%);
+}
+
+input[type='radio']:checked +label {
+    background-color: hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%) ;
+}
+
+.button-container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    
+}
+button {
+    width: 70vw;
+    border: 0;
+    padding: .5rem;
+    border-radius: 20px;
+    color:hsl(0, 0%, 100%) ;
+    background-color:hsl(25, 97%, 53%) ;
+    transition: .2s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%)  ;
+    color:hsl(25, 97%, 53%)  ;
+    
+}
+
+.card-content {
+    display: n;
+}

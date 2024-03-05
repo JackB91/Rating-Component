@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="rating-card">
+      <div class="card-content">
+        <div class="image">
+          <img class="star-icon" src="/images/icon-star.svg" alt="" />
+        </div>
+        <h2>How did we do?</h2>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form action="submit" class="rating-container" id="rating-form">
+          <input type="radio" id="rating1" name="rating" value="1" />
+          <label for="rating1">1</label>
+          <input type="radio" id="rating2" name="rating" value="2" />
+          <label for="rating2">2</label>
+          <input type="radio" id="rating3" name="rating" value="3" />
+          <label for="rating3">3</label>
+          <input type="radio" id="rating4" name="rating" value="4" />
+          <label for="rating4">4</label>
+          <input type="radio" id="rating5" name="rating" value="5" />
+          <label for="rating5">5</label>
+        </form>
+        <div class="button-container">
+          <button type="submit" id="button-submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
