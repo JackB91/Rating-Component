@@ -2,7 +2,7 @@ const submit = document.getElementById("button-submit");
 const ratingForm = document.getElementById("rating-form");
 const cardContent = document.getElementById("card_content");
 const thankYouContent = document.getElementById("ty_container");
-
+const tyHeading = document.getElementById("ty_heading");
 function handleForSubmit(event) {
   event.preventDefault();
 
@@ -22,6 +22,7 @@ function handleForSubmit(event) {
     console.log("Please choose a value");
   }
 
+  tyHeading.innerHTML = `You selected ${selectedValue} out of 5`;
   cardContent.style.display = "none";
   thankYouContent.style.display = "flex";
 }
