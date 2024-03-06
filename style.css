@@ -117,7 +117,7 @@ button:hover {
 
 .card-content {
     width: 100%;
-    display: n;
+    display: none;
 }
 
 
@@ -130,3 +130,45 @@ button:hover {
     }
     
 }
+
+
+
+
+/* Thank you State */
+.thank-you-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thank-you-state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you-img {
+   width: 8rem;
+   height: auto;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+
+h3 {
+    width: 50%;
+    background-color:hsla(216, 12%, 54%,0.15);
+    color: hsl(25, 97%, 53%, 0.8);
+    padding: .4rem;
+    border-radius: 20px;
+    font-size: .8rem;   
+}
+
+
+.ty-heading {
+    margin-bottom: 0;
+}
+
