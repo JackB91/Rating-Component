@@ -1,5 +1,7 @@
 const submit = document.getElementById("button-submit");
 const ratingForm = document.getElementById("rating-form");
+const cardContent = document.getElementById("card_content");
+const thankYouContent = document.getElementById("ty_container");
 
 function handleForSubmit(event) {
   event.preventDefault();
@@ -19,6 +21,9 @@ function handleForSubmit(event) {
   } else {
     console.log("Please choose a value");
   }
+
+  cardContent.style.display = "none";
+  thankYouContent.style.display = "flex";
 }
 
 submit.addEventListener("click", handleForSubmit);

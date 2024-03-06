@@ -31,6 +31,7 @@ body {
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
     padding: 1rem;
+    
 }
 
 
@@ -60,6 +61,7 @@ input[type='radio'] {
     display: flex;
     justify-content: center;
     align-content: center;
+    
        
 }
 
@@ -117,7 +119,9 @@ button:hover {
 
 .card-content {
     width: 100%;
-    display: none;
+    
+    
+    
 }
 
 
@@ -140,6 +144,8 @@ button:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: none;
+    transition: display 20s;
     
 }
 
